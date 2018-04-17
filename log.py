@@ -1,8 +1,8 @@
-import re
 from collections import Counter
 from collections import defaultdict
+import re
 
-FILENAME = "log.txt"
+FILENAME = 'log.txt'
 URL_PATTERN = r'request_to="(.*?)"'
 STATUS_PATTERN = r'response_status="(.*?)"'
 
